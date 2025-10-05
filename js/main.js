@@ -308,7 +308,7 @@ function initializeFleetData() {
     };
     
     // Show default category
-    showFleetCategory('ejecutivo');
+    showFleetCategory('All');
 }
 
 function showFleetCategory(category) {
