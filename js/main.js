@@ -263,73 +263,46 @@ function initializeAboutSection() {
 
 function initializeFleetData() {
     fleetData = {
-        ejecutivo: [
+        All: [
             {
-                name: 'Nissan Sentra',
-                image: 'https://images.unsplash.com/photo-1552519507-da3b142c6e3d?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                name: 'Yaris',
+                image: 'https://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/yaris-1.png',
                 capacity: '4 pasajeros',
-                features: ['Aire acondicionado', 'GPS', 'Seguro de viajero', 'Conductor profesional'],
-                price: 'Desde $350 MXN'
+                features: ['Aire acondicionado', 'GPS', 'Cajuela amplia'],
             },
             {
-                name: 'Toyota Corolla',
-                image: 'https://images.unsplash.com/photo-1621007947382-bb3c3994e3fb?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                capacity: '4 pasajeros',
-                features: ['Aire acondicionado', 'GPS', 'Seguro de viajero', 'Conductor profesional'],
-                price: 'Desde $350 MXN'
+                name: 'Hiace',
+                image: 'hhttps://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/hiace.png',
+                capacity: '10 pasajeros',
+                features: ['Aire acondicionado', 'GPS', 'Cajuela amplia'],
             },
             {
-                name: 'Chevrolet Aveo',
-                image: 'https://images.unsplash.com/photo-1606664515524-ed2f786a0bd6?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                capacity: '4 pasajeros',
-                features: ['Aire acondicionado', 'GPS', 'Seguro de viajero', 'Conductor profesional'],
-                price: 'Desde $320 MXN'
+                name: 'Suburban',
+                image: 'https://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/Suburbam.png',
+                capacity: '8 pasajeros',
+                features: ['Aire acondicionado', 'GPS', 'Cajuela amplia', 'Blindaje Nivel V'],
             }
         ],
-        premium: [
+        Aeropuerto: [
             {
-                name: 'Mercedes-Benz Clase E',
-                image: 'https://images.unsplash.com/photo-1618843479313-40f8afb4b4d8?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
+                name: 'Yaris',
+                image: 'https://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/yaris-1.png',
                 capacity: '4 pasajeros',
-                features: ['Asientos de cuero', 'Clima dual', 'Sistema premium', 'Agua cortesía'],
-                price: 'Desde $650 MXN'
+                features: ['Aire acondicionado', 'GPS', 'Cajuela amplia'],
             },
             {
-                name: 'BMW Serie 3',
-                image: 'https://images.unsplash.com/photo-1555215695-3004980ad54e?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                capacity: '4 pasajeros',
-                features: ['Asientos de cuero', 'Clima dual', 'Sistema premium', 'Agua cortesía'],
-                price: 'Desde $680 MXN'
-            },
-            {
-                name: 'Audi A4',
-                image: 'https://images.unsplash.com/photo-1606220588913-b3aacb4d2f46?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                capacity: '4 pasajeros',
-                features: ['Asientos de cuero', 'Clima dual', 'Sistema premium', 'Agua cortesía'],
-                price: 'Desde $700 MXN'
+                name: 'Hiace',
+                image: 'hhttps://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/hiace.png',
+                capacity: '10 pasajeros',
+                features: ['Aire acondicionado', 'GPS', 'Cajuela amplia'],
             }
         ],
-        lujo: [
+        Blindado: [
             {
-                name: 'Mercedes-Benz Clase S',
-                image: 'https://images.unsplash.com/photo-1563720223185-11003d516935?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                capacity: '4 pasajeros',
-                features: ['Masajes en asientos', 'Bar incluido', 'WiFi premium', 'Chofer de etiqueta'],
-                price: 'Desde $1200 MXN'
-            },
-            {
-                name: 'BMW Serie 7',
-                image: 'https://images.unsplash.com/photo-1580473879181-dfaf9d5328fe?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                capacity: '4 pasajeros',
-                features: ['Masajes en asientos', 'Bar incluido', 'WiFi premium', 'Chofer de etiqueta'],
-                price: 'Desde $1250 MXN'
-            },
-            {
-                name: 'Cadillac Escalade',
-                image: 'https://images.unsplash.com/photo-1544829099-b9a0c5303bea?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80',
-                capacity: '7 pasajeros',
-                features: ['Espacio VIP', 'Entretenimiento', 'Refrigerador', 'Servicio completo'],
-                price: 'Desde $1500 MXN'
+                name: 'Suburban',
+                image: 'https://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/Suburbam.png',
+                capacity: '8 pasajeros',
+                features: ['Aire acondicionado', 'GPS', 'Cajuela amplia', 'Blindaje Nivel V'],
             }
         ]
     };
