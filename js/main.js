@@ -318,7 +318,13 @@ function showFleetCategory(category) {
     // Update active tab
     fleetTabs.forEach(tab => {
         tab.classList.remove('active');
-        if (tab.textContent.toLowerCase().includes(category.replace('lujo', 'gran lujo'))) {
+        const tabText = tab.textContent.toLowerCase().trim();
+        const categoryLower = category.toLowerCase();
+        
+        // Map button text to category
+        if ((tabText === 'todos' && categoryLower === 'all') ||
+            (tabText === 'aeropuerto' && categoryLower === 'aeropuerto') ||
+            (tabText === 'blindado' && categoryLower === 'blindado')) {
             tab.classList.add('active');
         }
     });
