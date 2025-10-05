@@ -312,8 +312,12 @@ function initializeFleetData() {
 }
 
 function showFleetCategory(category) {
+    console.log('showFleetCategory called with:', category);
     const fleetTabs = document.querySelectorAll('.fleet-tab');
     const fleetGrid = document.getElementById('fleetGrid');
+    
+    console.log('fleetTabs found:', fleetTabs.length);
+    console.log('fleetGrid found:', fleetGrid);
     
     // Update active tab
     fleetTabs.forEach(tab => {
@@ -321,11 +325,14 @@ function showFleetCategory(category) {
         const tabText = tab.textContent.toLowerCase().trim();
         const categoryLower = category.toLowerCase();
         
+        console.log('Tab text:', tabText, 'Category:', categoryLower);
+        
         // Map button text to category
         if ((tabText === 'todos' && categoryLower === 'all') ||
             (tabText === 'aeropuerto' && categoryLower === 'aeropuerto') ||
             (tabText === 'blindado' && categoryLower === 'blindado')) {
             tab.classList.add('active');
+            console.log('Tab activated:', tabText);
         }
     });
     
@@ -334,6 +341,8 @@ function showFleetCategory(category) {
     
     // Display fleet items
     const vehicles = fleetData[category] || [];
+    console.log('Vehicles found for category', category, ':', vehicles.length);
+    
     vehicles.forEach((vehicle, index) => {
         const vehicleCard = createVehicleCard(vehicle, index);
         fleetGrid.appendChild(vehicleCard);
