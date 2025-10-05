@@ -272,7 +272,7 @@ function initializeFleetData() {
             },
             {
                 name: 'Hiace',
-                image: 'hhttps://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/hiace.png',
+                image: 'https://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/hiace.png',
                 capacity: '10 pasajeros',
                 features: ['Aire acondicionado', 'GPS', 'Cajuela amplia'],
             },
@@ -292,7 +292,7 @@ function initializeFleetData() {
             },
             {
                 name: 'Hiace',
-                image: 'hhttps://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/hiace.png',
+                image: 'https://transporteejecutivo.domkard.com/wp-content/uploads/2022/09/hiace.png',
                 capacity: '10 pasajeros',
                 features: ['Aire acondicionado', 'GPS', 'Cajuela amplia'],
             }
