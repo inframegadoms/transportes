@@ -724,7 +724,7 @@ function initializeFloatingActionButton() {
     }
     
     function handleFABAction(action) {
-        const whatsappNumber = '528114148863'; // Número con código de país (52 para México)
+        const whatsappNumber = '528122002418'; // Número con código de país (52 para México)
         let message = '';
         
         switch(action) {
